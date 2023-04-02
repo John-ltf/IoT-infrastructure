@@ -39,25 +39,10 @@
         "databaseAccounts_iotcosmosdb_name": {
             "defaultValue": "iotcosmosdb",
             "type": "String"
-        },
-        "b2cDirectories_johnltf_onmicrosoft_com_name": {
-            "defaultValue": "johnltf.onmicrosoft.com",
-            "type": "String"
         }
     },
     "variables": {},
     "resources": [
-        {
-            "type": "Microsoft.AzureActiveDirectory/b2cDirectories",
-            "apiVersion": "2021-04-01",
-            "name": "[parameters('b2cDirectories_johnltf_onmicrosoft_com_name')]",
-            "location": "Europe",
-            "sku": {
-                "name": "PremiumP1",
-                "tier": "A0"
-            },
-            "properties": {}
-        },
         {
             "type": "Microsoft.Devices/IotHubs",
             "apiVersion": "2022-04-30-preview",
