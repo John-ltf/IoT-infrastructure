@@ -31,9 +31,6 @@
         },
         "databaseAccounts_iotcosmosdb_name": {
             "value": null
-        },
-        "b2cDirectories_johnltf_onmicrosoft_com_name": {
-            "value": null
         }
     }
 }
